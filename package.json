@@ -1,0 +1,15 @@
+{
+  "name": "sdl-codegen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gql:codegen": "graphql-codegen --config codegen.config.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-codegen/cli": "^5.0.2",
+    "@graphql-codegen/schema-ast": "^4.0.2"
+  }
+}
